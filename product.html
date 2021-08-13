@@ -1,0 +1,54 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Product Details </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="css/styles_customer.css">
+</head>
+<style>
+
+
+</style>
+<body style="background-color:#614e6e;">
+
+<header>
+<div class="tem">
+
+<div class="abc"><span style="font-size:30px;cursor:pointer;width:30px;display:block;color:#614e6e;" onclick="openNav()">&#9776;  <span></div>
+</div>
+<div class="abc" style="margin-left:35vw;margin-top:10px;color:#614e6e;font-size:30px;"><b>PRODUCT DETAILS</b></div>
+
+<span class="loginlogoutlink" style="float:right;margin-right:5vw;margin-top:19px;font-size:20px;" >
+   <a style="text-decoration:none;" title="Log Out" class="loginlogoutlink-logout" href="index.html"><b>LOG OUT</b></a>
+</span>
+<span class="ADDNEWCUSTOMERlink" style="float:right;margin-right:3vw;margin-top:19px;font-size:20px;" >
+   <a style="text-decoration:none;" title="Add New" class="ADDNEWCUSTOMERlink-logout" href="newcustomer/New_Customer_Registration_Form.html"><b>ADD NEW</b></a>
+</span>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">CUSTOMER DETAILS</a>
+    <a href="#">PRODUCT DETAILS</a>
+    <a href="#">SALES</a>
+    <a href="#">PURCHASE</a>
+	<a href="#">SALES RECIEPT</a>
+	<a href="#">PURCHASE RECIEPT</a>
+	<a href="#">STOCK</a>
+  </div>
+</div>
+</header>
+
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+</body>
+</html>
